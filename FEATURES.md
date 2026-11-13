@@ -1,51 +1,64 @@
+# SIMINFRA — Dokumentasi Pengembangan Fitur
 
-# SIMINFRA — Feature Development
+## Latar Belakang Proyek
 
-## Project Background
+SIMINFRA merupakan Sistem Informasi Geografis (SIG) berbasis web yang dikembangkan untuk mendukung visualisasi dan pengelolaan data spasial di Kabupaten Grobogan.
 
-SIMINFRA is a web-based Geographic Information System (GIS) developed to support spatial data visualization and management in Kabupaten Grobogan.
+Selama menjalani kegiatan magang sebagai Web Developer di BAPPERIDA Grobogan, saya berkontribusi dalam penyempurnaan fitur yang telah tersedia serta pengembangan fungsionalitas tambahan untuk pengguna umum dan administrator.
 
-During my internship at BAPPERIDA Grobogan, I worked on improving existing features and developing additional functionality for both public users and administrators.
+Pengembangan dilakukan dengan memperhatikan kebutuhan pengguna, kinerja sistem, kemudahan pengelolaan data, dan peningkatan pengalaman pengguna dalam berinteraksi dengan aplikasi.
 
-## 1. Interactive Map Improvements
+## 1. Pengembangan Fitur Peta Interaktif
 
-### Asynchronous Layer Loading
+### Pemuatan Layer Secara Asinkron
 
-Improved the map layer loading mechanism to support asynchronous processing, allowing multiple spatial layers to be loaded without waiting for each previous layer to finish.
+Melakukan penyempurnaan mekanisme pemuatan layer peta menggunakan pemrosesan asinkron sehingga beberapa layer spasial dapat diproses tanpa harus menunggu pemuatan layer sebelumnya selesai.
 
-The implementation included limiting concurrent loading processes to maintain application responsiveness.
+Pengembangan ini juga mencakup pembatasan jumlah proses yang berjalan secara bersamaan untuk menjaga responsivitas aplikasi.
 
-### Layer Management
+### Pengelolaan Layer Peta
 
-Improved the management of active map layers by implementing a maximum active layer limit and a Clear All Layers feature.
+Mengembangkan pengelolaan layer aktif dengan menerapkan batas maksimum jumlah layer yang dapat ditampilkan secara bersamaan.
 
-### Dynamic Map Legends
+Selain itu, ditambahkan fitur Hapus Semua Layer untuk memudahkan pengguna menonaktifkan seluruh layer aktif melalui satu tindakan.
 
-Developed improvements to display map legends based on active spatial layers, helping users understand the colors and symbols displayed on the map.
+### Legenda Peta Dinamis
 
-### Location Search
+Mengembangkan tampilan legenda peta yang menyesuaikan dengan layer spasial yang sedang aktif.
 
-Enhanced the location search functionality with a focus on Kabupaten Grobogan, including notifications for locations outside the intended geographic area.
+Legenda membantu pengguna memahami informasi warna dan simbol yang digunakan dalam visualisasi data geografis.
 
-## 2. Administrator Features
+### Pencarian Lokasi
 
-### Map Data Management
+Melakukan penyempurnaan fitur pencarian lokasi dengan memprioritaskan wilayah Kabupaten Grobogan.
 
-Improved administrative functionality for managing spatial datasets, including searching, filtering, and validating map information.
+Sistem juga dilengkapi pemberitahuan ketika pengguna memilih lokasi di luar wilayah Kabupaten Grobogan serta menyediakan fitur untuk kembali ke wilayah tersebut.
 
-### Soft Delete and Data Recovery
+## 2. Pengembangan Fitur Administrator
 
-Worked on a soft delete mechanism that allows deleted map records to be managed and restored before permanent deletion.
+### Pengelolaan Data Peta
 
-### Spatial Metadata Management
+Melakukan penyempurnaan fitur pengelolaan data peta melalui penambahan pencarian, penyaringan berdasarkan kategori, dan validasi informasi peta.
 
-Contributed to the development of metadata management functionality to support documentation of spatial datasets, including identification, file information, and geographic characteristics.
+Pengembangan ini bertujuan memudahkan administrator dalam menemukan, memeriksa, dan mengelola data spasial.
 
-### User Interface Improvements
+### Penghapusan Sementara dan Pemulihan Data
 
-Improved administrative interface elements, form validation, navigation, and user feedback to support a more efficient workflow.
+Mengembangkan mekanisme soft delete yang memungkinkan data peta yang dihapus dipindahkan ke bagian Data Terhapus.
 
-## 3. Technologies Used
+Administrator dapat melihat dan memulihkan data yang telah dihapus sebelum dilakukan penghapusan permanen.
+
+### Pengelolaan Metadata Spasial
+
+Berkontribusi dalam pengembangan fitur pengelolaan metadata untuk mendukung dokumentasi dataset spasial secara terstruktur.
+
+Informasi metadata mencakup identifikasi dataset, deskripsi data, karakteristik spasial, informasi file, sumber data, dan informasi penanggung jawab.
+
+### Penyempurnaan Antarmuka Administrator
+
+Melakukan perbaikan elemen antarmuka administrator, termasuk validasi formulir, navigasi menu, pencarian data, konfirmasi tindakan, dan penyajian informasi untuk mendukung proses pengelolaan peta yang lebih efisien.
+
+## 3. Teknologi yang Digunakan
 
 **Backend**
 
@@ -59,24 +72,40 @@ HTML · CSS · JavaScript · jQuery
 
 MySQL
 
-**Mapping**
+**Teknologi Pemetaan**
 
 Google Maps JavaScript API · GeoJSON
 
-## 4. Development Methodology
+## 4. Metode Pengembangan
 
-The project followed the Rapid Application Development (RAD) approach.
+Pengembangan SIMINFRA menggunakan pendekatan Rapid Application Development (RAD) yang menekankan proses pengembangan secara bertahap dan penyempurnaan berdasarkan kebutuhan pengguna.
 
-Development activities involved requirement analysis, interface design, implementation, functional testing, and iterative improvements.
+Kegiatan pengembangan mencakup analisis kebutuhan, perancangan sistem, implementasi fitur, pengujian fungsional, serta perbaikan berdasarkan hasil evaluasi.
 
-## 5. Technical Experience
+Pendekatan ini digunakan untuk mendukung proses pengembangan fitur secara iteratif agar sesuai dengan kebutuhan sistem dan pengguna.
 
-This internship provided practical experience in maintaining and improving an existing web application.
+## 5. Pengalaman Teknis
 
-The development process involved working with PHP controllers, application views, JavaScript interactions, database operations, and interactive map functionality.
+Kegiatan magang ini memberikan pengalaman praktis dalam melakukan pemeliharaan, pengembangan, dan penyempurnaan aplikasi web yang telah berjalan.
 
-## Repository Notice
+Proses pengembangan melibatkan penggunaan controller dan view pada CodeIgniter 3, pengelolaan database MySQL, implementasi interaksi antarmuka menggunakan JavaScript, serta pengembangan fitur peta interaktif dengan Google Maps API.
 
-This repository documents my internship contributions for portfolio purposes.
+Selain implementasi fitur, kegiatan pengembangan juga melibatkan identifikasi permasalahan, debugging, pengujian fungsional, dan evaluasi terhadap kebutuhan pengguna.
 
-The original source code and internal resources are not publicly distributed.
+Pengalaman tersebut membantu meningkatkan pemahaman mengenai pengembangan aplikasi berbasis web, khususnya dalam pengelolaan data spasial dan penyempurnaan fungsionalitas sistem.
+
+## Informasi Repository
+
+Repository ini digunakan sebagai dokumentasi portofolio pribadi yang menjelaskan pengalaman dan kontribusi saya dalam pengembangan SIMINFRA selama kegiatan magang di BAPPERIDA Grobogan.
+
+Source code asli, database internal, serta sumber daya proyek yang bersifat terbatas tidak dipublikasikan tanpa persetujuan pihak terkait.
+
+---
+
+**Pengembang:** Dea Adeliana Putri
+
+**Peran:** Web Developer Intern
+
+**Instansi:** BAPPERIDA Grobogan
+
+**Teknologi:** PHP · CodeIgniter 3 · JavaScript · MySQL · Google Maps API
