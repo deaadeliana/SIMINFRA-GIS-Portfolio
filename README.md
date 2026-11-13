@@ -1,19 +1,20 @@
+# SIMINFRA — Sistem Informasi Geografis 🗺️
 
-# SIMINFRA — Geographic Information System 🗺️
+### Proyek Magang Web Developer | BAPPERIDA Grobogan
 
-### Web Developer Internship Project | BAPPERIDA Grobogan
+SIMINFRA merupakan Sistem Informasi Geografis (SIG) berbasis web yang dikembangkan untuk mendukung visualisasi dan pengelolaan data spasial di Kabupaten Grobogan.
 
-SIMINFRA is a web-based Geographic Information System (GIS) designed to support the visualization and management of spatial data in Kabupaten Grobogan.
+Repository ini digunakan sebagai dokumentasi portofolio yang menjelaskan pengalaman, kontribusi, dan hasil pengembangan selama menjalani kegiatan magang sebagai Web Developer di BAPPERIDA Grobogan.
 
-This repository documents my contributions and development experience during my Web Developer internship at BAPPERIDA Grobogan.
+## 📌 Gambaran Umum Proyek
 
-## 📌 Project Overview
+SIMINFRA menyediakan platform pemetaan interaktif yang memungkinkan pengguna mengakses dan mengeksplorasi informasi geografis melalui berbagai layer data spasial.
 
-SIMINFRA provides an interactive mapping platform that allows users to explore geographic information through various spatial data layers.
+Selama kegiatan magang, saya berkontribusi dalam pengembangan dan penyempurnaan fungsionalitas aplikasi, pengelolaan data spasial, serta peningkatan pengalaman pengguna.
 
-During my internship, I contributed to improving application functionality, spatial data management, and user experience.
+Pengembangan dilakukan pada sisi pengunjung dan administrator dengan fokus pada optimalisasi proses pemuatan layer, pengelolaan peta, penyajian informasi geografis, dan penyempurnaan antarmuka aplikasi.
 
-## 🛠️ Tech Stack
+## 🛠️ Teknologi yang Digunakan
 
 **Backend**
 
@@ -27,54 +28,72 @@ HTML · CSS · JavaScript · jQuery
 
 MySQL
 
-**Mapping Technology**
+**Teknologi Pemetaan**
 
 Google Maps JavaScript API · GeoJSON
 
-**Development Tools**
+**Tools Pengembangan**
 
 Visual Studio Code · XAMPP · Postman
 
-## 💻 My Contributions
+## 💻 Kontribusi Pengembangan
 
-### Interactive Map Development
+### Pengembangan Peta Interaktif
 
-Worked on improving the interactive map interface, including asynchronous layer loading, layer management, map legends, and location search functionality.
+Melakukan penyempurnaan fitur peta interaktif melalui penerapan pemuatan layer secara asinkron, pengelolaan layer aktif, penambahan legenda peta dinamis, serta peningkatan fungsionalitas pencarian lokasi.
 
-### Spatial Data Management
+Pengembangan bertujuan meningkatkan responsivitas aplikasi dan memudahkan pengguna dalam mengakses informasi geografis.
 
-Contributed to the management of spatial data layers and the implementation of geographic metadata features.
+### Pengelolaan Data Spasial
 
-### Administrator Dashboard
+Berkontribusi dalam pengembangan pengelolaan layer data spasial serta penerapan fitur metadata geografis untuk mendukung dokumentasi dan identifikasi dataset peta.
 
-Worked on improving administrative features, including map management, searching, filtering, form validation, and data recovery functionality.
+### Pengembangan Fitur Administrator
 
-### User Experience Improvements
+Melakukan pengembangan dan penyempurnaan fitur administrator, termasuk pengelolaan data peta, pencarian, penyaringan kategori, validasi formulir, serta mekanisme penghapusan sementara dan pemulihan data.
 
-Enhanced interface elements, navigation, notifications, and user interactions to improve application usability.
+### Peningkatan Pengalaman Pengguna
 
-## 🔍 Development Approach
+Melakukan perbaikan elemen antarmuka, navigasi, notifikasi, dan interaksi pengguna agar aplikasi lebih mudah dipahami dan digunakan.
 
-The development process involved requirement analysis, system design, implementation, functional testing, and iterative improvements.
+## 🔍 Metode Pengembangan
 
-The project followed the Rapid Application Development (RAD) approach.
+Pengembangan SIMINFRA menggunakan pendekatan Rapid Application Development (RAD).
 
-## 🔒 Repository Information
+Proses pengembangan mencakup analisis kebutuhan, perancangan sistem, implementasi fitur, pengujian fungsional, serta penyempurnaan berdasarkan hasil evaluasi.
 
-This repository is intended for portfolio documentation purposes only.
+Pendekatan ini mendukung pengembangan secara bertahap agar fungsionalitas aplikasi dapat disesuaikan dengan kebutuhan pengguna.
 
-The original application source code, database, and internal project resources are not publicly distributed because the project was developed within a government institution.
+## 📂 Dokumentasi Proyek
 
-## 👩‍💻 Developer
+Dokumentasi pengembangan SIMINFRA tersedia dalam dua bagian utama.
 
-**Dea Adeliana Putri**
+**[Dokumentasi Pengembangan Fitur](FEATURES.md)**
 
-Information Systems Student
+Menjelaskan pengembangan fitur peta interaktif dan administrator, teknologi yang digunakan, serta pengalaman teknis selama kegiatan magang.
 
-Universitas Amikom Yogyakarta
+**[Tantangan Teknis dan Solusi Pengembangan](CHALLENGES.md)**
 
-**Role:** Web Developer Intern
+Menjelaskan permasalahan yang ditemukan selama pengembangan, pendekatan penyelesaian, dan hasil penyempurnaan fungsionalitas aplikasi.
 
-**Institution:** BAPPERIDA Grobogan
+## 🔒 Informasi Repository
+
+Repository ini disusun untuk keperluan dokumentasi portofolio pribadi dan tidak digunakan sebagai distribusi resmi aplikasi SIMINFRA.
+
+Source code asli, database internal, serta sumber daya proyek yang bersifat terbatas tidak dipublikasikan tanpa persetujuan pihak terkait.
+
+Dokumentasi ini berfokus pada pengalaman teknis dan kontribusi pengembangan selama kegiatan magang.
+
+## 👩‍💻 Informasi Pengembang
+
+**Nama:** Dea Adeliana Putri
+
+**Program Studi:** S1 Sistem Informasi
+
+**Perguruan Tinggi:** Universitas Amikom Yogyakarta
+
+**Posisi:** Web Developer Intern
+
+**Instansi:** BAPPERIDA Grobogan
 
 **GitHub:** https://github.com/deaadeliana
